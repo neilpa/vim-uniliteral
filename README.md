@@ -1,6 +1,6 @@
 ## vim-uniliteral
 
-Vim `:Uniliteral` command to replace Unicode escape sequences with literal equivalent(s)
+`:Uniliteral` command to replace Unicode escape sequences with literal equivalent(s)
 
 Inspired by [this stackexchange answer](Answer)
 
