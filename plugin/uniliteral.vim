@@ -16,5 +16,5 @@
 " submatch(1)   - the hexadecimal number remembered above
 " )             - closing paren of nr2char()
 " /g            - replace for every occurrence in each line
-command! -range Uniliteral :<line1>,<line2>s/\\u\(\x\{4\}\)/\=nr2char('0x'.submatch(1),1)/g
+command! -range=% Uniliteral :<line1>,<line2>s/\\u\(\x\{4\}\)/\=nr2char('0x'.submatch(1),1)/g
 
