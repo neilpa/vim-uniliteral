@@ -1,6 +1,6 @@
-## vim-unisplode
+## vim-uniliteral
 
-Vim plugin to expand Unicode escape sequences to there literal values.
+Vim command to replace Unicode escape sequences the literal equivalents
 
 Inspired by [this stackexchange answer](Answer)
 
